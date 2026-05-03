@@ -426,8 +426,8 @@ export default function RegisterVolunteerPage() {
         <header className="sticky top-0 z-40 border-b border-emerald-200/50 bg-white/75 backdrop-blur-xl">
           <div className="mx-auto flex max-w-5xl items-center justify-between px-6 py-4 lg:px-10">
             <button onClick={() => navigate("/")} className="flex items-center gap-3">
-              <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-emerald-400 via-green-500 to-sky-500 shadow-lg shadow-emerald-400/20">
-                <img src={logo} alt="Sahaay" className="object-contain" style={{height:"40px",width:"auto"}} />
+              <div className="flex items-center justify-center">
+                <img src={logo} alt="Sahaay" className="object-contain" style={{height:"56px",width:"auto"}} />
               </div>
               <div className="text-left">
                 <h1 className="brand-heading text-xl font-black tracking-[-0.03em] text-slate-900">

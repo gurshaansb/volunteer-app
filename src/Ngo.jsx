@@ -162,8 +162,8 @@ export default function Ngo() {
       <header className="fixed inset-x-0 top-0 z-50 border-b border-emerald-200/60 bg-white/85 backdrop-blur-xl">
         <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-10">
           <div className="flex items-center gap-3">
-            <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-emerald-400 via-green-500 to-sky-500 shadow-lg shadow-emerald-400/20">
-              <img src={logo} alt="Sahaay" className="object-contain" style={{height:"40px",width:"auto"}} />
+            <div className="flex items-center justify-center">
+              <img src={logo} alt="Sahaay" className="object-contain" style={{height:"56px",width:"auto"}} />
             </div>
             <div>
               <h1 className="font-['Satoshi'] text-xl font-black tracking-[-0.03em] text-slate-900">
@@ -196,7 +196,7 @@ export default function Ngo() {
               {menuHidden ? "Show menu" : "Hide menu"}
             </button>
 
-            <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-emerald-400 via-green-500 to-sky-500 shadow-lg shadow-emerald-400/20">
+            <div className="flex items-center justify-center">
               <span className="text-lg font-black text-white">NG</span>
             </div>
           </div>
@@ -206,8 +206,8 @@ export default function Ngo() {
       {!menuHidden && (
         <aside className="fixed left-0 top-0 z-40 hidden h-full w-[280px] flex-col border-r border-emerald-200/60 bg-white/80 backdrop-blur-xl lg:flex">
           <div className="flex h-20 items-center gap-3 border-b border-emerald-200/60 px-6">
-            <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-emerald-400 via-green-500 to-sky-500 shadow-lg shadow-emerald-400/20">
-              <img src={logo} alt="Sahaay" className="object-contain" style={{height:"40px",width:"auto"}} />
+            <div className="flex items-center justify-center">
+              <img src={logo} alt="Sahaay" className="object-contain" style={{height:"56px",width:"auto"}} />
             </div>
             <div>
               <h2 className="font-['Satoshi'] text-xl font-black tracking-[-0.03em] text-slate-900">
@@ -264,8 +264,8 @@ export default function Ngo() {
         <aside className="fixed left-0 top-0 z-50 flex h-full w-[300px] max-w-[90vw] flex-col border-r border-emerald-200/60 bg-white/95 backdrop-blur-xl lg:hidden">
           <div className="flex h-20 items-center justify-between border-b border-emerald-200/60 px-6">
             <div className="flex items-center gap-3">
-              <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-emerald-400 via-green-500 to-sky-500 shadow-lg shadow-emerald-400/20">
-                <img src={logo} alt="Sahaay" className="object-contain" style={{height:"40px",width:"auto"}} />
+              <div className="flex items-center justify-center">
+                <img src={logo} alt="Sahaay" className="object-contain" style={{height:"56px",width:"auto"}} />
               </div>
               <div>
                 <h2 className="font-['Satoshi'] text-xl font-black tracking-[-0.03em] text-slate-900">
