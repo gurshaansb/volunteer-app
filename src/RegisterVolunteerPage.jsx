@@ -1,5 +1,6 @@
 import { useMemo, useState } from "react";
 import { useNavigate } from "react-router-dom";
+import logo from "./assets/logo.png";
 
 const API_BASE_URL =
   import.meta.env.VITE_API_BASE_URL ||
@@ -426,7 +427,7 @@ export default function RegisterVolunteerPage() {
           <div className="mx-auto flex max-w-5xl items-center justify-between px-6 py-4 lg:px-10">
             <button onClick={() => navigate("/")} className="flex items-center gap-3">
               <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-emerald-400 via-green-500 to-sky-500 shadow-lg shadow-emerald-400/20">
-                <span className="text-xl font-black text-white">H</span>
+                <img src={logo} alt="Sahaay" className="object-contain" style={{height:"40px",width:"auto"}} />
               </div>
               <div className="text-left">
                 <h1 className="brand-heading text-xl font-black tracking-[-0.03em] text-slate-900">
