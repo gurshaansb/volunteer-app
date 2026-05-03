@@ -44,7 +44,7 @@ export default function Volunteer() {
         setVolunteers(Array.isArray(data) ? data : []);
       } catch (err) {
         console.error(err);
-        setVolunteerError("Unable to load volunteer data.");
+        setVolunteers([]);
       } finally {
         setLoadingVolunteers(false);
       }
